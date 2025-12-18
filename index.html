@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+	<section id="instrucao">
+		<h3>Jokenpô</h3>
+		<ul>
+			<li>Clique em iniciar</li>
+			<li>Clique na figura desejada</li>
+			<li>Quem chegar a 3 pontos vence</li>
+		</ul>
+		<button onclick='iniciar()'>Iniciar</button>
+	</section>
+	<section id="figura">
+		<img src="" alt="pedra" id="pedra" class="fig" onclick='desPedra()'>
+		<img src="" alt="papel" id="papel" class="fig" onclick=''>
+		<img src="" alt="tesoura" id="tesoura" class="fig" onclick=''>
+	</section>
+	<section id="resultado">
+		<p id='res'>Vencedor da rodada</p>
+	</section>
+	<section id="placar">
+		<div id="pla" class='cont'>0</div>
+		<div id="vs">X</div>
+		<div id="plb" class='cont'>0</div>
+	</section>
+</main>
+</body>
+</html>
