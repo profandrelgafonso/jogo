@@ -38,8 +38,7 @@ function desPedra(){
 			frase.innerHTML = res[2];
 		}
 			
-		}
-	} else{
+		} else{
 		alert('O jogo já acabou!');
 	}
 }
